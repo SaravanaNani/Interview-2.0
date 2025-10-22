@@ -144,3 +144,27 @@ Use rollback mechanisms and communicate proactively with the team.
 
 **3. Where do you see yourself in 2 years as a DevOps engineer?**
 Growing towards cloud-native architecture and advanced automation solutions.
+
+---
+
+## 🧩 Section 10: Practical Hands-On Tasks
+
+**1. Terraform:** Write a Terraform module to create a GCP VM instance with tags and output the IP address.
+
+**2. Ansible:** Create a playbook that installs Apache on all servers, starts the service, and copies an index.html file.
+
+**3. Jenkins:** Build a Jenkinsfile that compiles a Java project, runs tests, and uploads the artifact to Nexus.
+
+**4. Docker:** Write a Dockerfile for a Python Flask app and push the image to DockerHub.
+
+**5. Kubernetes:** Create YAML manifests for a deployment with 3 replicas and expose it via a LoadBalancer service.
+
+**6. Monitoring:** Configure a Prometheus rule to alert if CPU usage exceeds 85% for more than 5 minutes.
+
+**7. Python:** Write a Python script that reads a log file and prints only lines containing the word 'ERROR'.
+
+**8. GCP/AWS:** Automate the creation of a Cloud Storage/S3 bucket using Terraform and upload a sample file after provisioning.
+
+---
+
+These tasks are aligned with your skillset and simulate real-time interview scenarios for a DevOps Engineer with 2-3 years of experience.
