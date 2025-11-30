@@ -1,3 +1,9 @@
+# Cert-manger
+
+“cert-manager is a custom Kubernetes controller that manages certificates. When I create a ClusterIssuer, it becomes a cluster-wide certificate authority configuration. Any Ingress can request a certificate simply by adding the cert-manager annotation. cert-manager sees this, creates a Certificate resource, matches it with the ClusterIssuer, and then communicates with Let’s Encrypt using ACME challenges. After validation, cert-manager stores the certificate in a Kubernetes Secret, and the Ingress uses that secret to serve HTTPS.”
+
+
+# Prometheus
 EKS Observability & Logging Stack (Internal Setup – Private Cluster)
 
 Tech Stack: Helm, Prometheus Operator, Grafana, Loki, Promtail, Node Exporter, Kube-State-Metrics, cAdvisor, cert-manager, EBS CSI, IRSA, NGINX Ingress
